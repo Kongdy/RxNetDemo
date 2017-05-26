@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="ware"
+            type="com.kongdy.rxnetdemo.model.WareInfo"/>
+
+        <variable
+            name="clickEvent"
+            type="android.view.View.OnClickListener"/>
+    </data>
+    <android.support.v7.widget.CardView
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10"
+        android:clipToPadding="true"
+        app:cardElevation="@dimen/dp_10"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="@dimen/dp_10"
+        app:cardBackgroundColor="@android:color/white"
+        android:background="@drawable/shape_default_press_background"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/aciv_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_200"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:padding="@dimen/dp_15"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:background="@color/trans_white"
+            android:textSize="@dimen/sp_18"
+            android:typeface="monospace"
+            android:text="@{ware.wname}"
+            android:textColor="@color/text_black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.CardView>
+</layout>

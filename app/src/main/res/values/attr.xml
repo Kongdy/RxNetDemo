@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 圆形进度条 -->
+    <declare-styleable name="MaterialProgressView">
+        <attr name="mpv_stroke_colors" format="reference"/>
+        <attr name="mpv_stroke_color" format="reference|color"/>
+    </declare-styleable>
+
+</resources>

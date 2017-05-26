@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RxNetDemo</string>
+
+    <!-- global tip -->
+    <string name="short_loading">加载中&#8230;</string>
+
+    <string name="unable_net_work">网络异常</string>
+
+    <string name="tip">提示</string>
+</resources>

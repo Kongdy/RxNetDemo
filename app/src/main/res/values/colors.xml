@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="text_black">#333333</color>
+
+    <color name="green">#FF6CBB52</color>
+    <color name="mild">#FCB503</color>
+    <color name="high_value">#FFFFEA00</color>
+    <color name="heavy_ache">#C80E0E</color>
+
+    <color name="trans_white">#88FFFFFF</color>
+    <color name="colorBackground">#EBECF0</color>
+
+    <array name="loading_colors">
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/green</item>
+        <item>@color/mild</item>
+        <item>@color/high_value</item>
+        <item>@color/heavy_ache</item>
+    </array>
+</resources>
