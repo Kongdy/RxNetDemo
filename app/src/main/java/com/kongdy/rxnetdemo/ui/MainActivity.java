@@ -10,10 +10,8 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-
 import com.kongdy.rxnetdemo.R;
 import com.kongdy.rxnetdemo.databinding.ActivityMainBinding;
-import com.kongdy.rxnetdemo.model.Recommend;
 import com.kongdy.rxnetdemo.model.Root;
 import com.kongdy.rxnetdemo.model.WareInfo;
 import com.kongdy.rxnetdemo.net.NetCallBack;
@@ -52,8 +50,6 @@ public class MainActivity extends AppCompatActivity {
         binding.rvJdRecommend.addItemDecoration(new RecyclerView.ItemDecoration() {
             @Override
             public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
-               // super.getItemOffsets(outRect, view, parent, state);
-
                 outRect.set(0,0,0,10);
             }
         });
@@ -79,5 +75,7 @@ public class MainActivity extends AppCompatActivity {
                         , DialogInterface::dismiss,DialogInterface::dismiss);
                     }
                 });
+
+
     }
 }

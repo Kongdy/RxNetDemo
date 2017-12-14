@@ -5,6 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+        <variable
+            name="myClick"
+            type="android.view.View.OnClickListener"/>
     </data>
 
     <RelativeLayout
